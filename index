@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <ul>
+        <li><a href="#galerie">Galerie</a>
+            <ul>
+                <li><a href="#2022">2022</a></li> <!-- to co je v uvozovkách znamená kam odkaz povede, potomhle znaku: > je text který vidíme jako ten odkaz -->
+                <li><a href="#2021">2021</a></li>
+                <li><a href="#2020">2020</a></li>
+
+            </ul>
+        </li>
+        <li><a href="#Omne">O mně</a>
+            <ul>
+                <li><a href="#Zkusenosti">Zkušenosti</a></li>
+                <li><a href="#odkazy">Užitečné odkazy</a></li>
+                <li><a href="#kontakt">kontakt</a></li>
+            </ul>
+        </li>
+    </ul>
+    
+<h1>Úvod</h1>    <!-- Toto je ten nejmocnější nadpis sire -->   
+        
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Integer vulputate sem a nibh rutrum consequat. Aliquam erat volutpat. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Nullam dapibus fermentum ipsum. Phasellus et lorem id felis nonummy placerat. Nulla quis diam. Integer malesuada. Nullam dapibus fermentum ipsum. In convallis. Etiam quis quam.</p>
+        <p>Aenean fermentum risus id tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Phasellus rhoncus. Duis condimentum augue id magna semper rutrum. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Duis risus. Ut tempus purus at lorem. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Quisque tincidunt scelerisque libero. Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Nulla quis diam. Duis pulvinar. Fusce consectetuer risus a nunc.</p>  
+
+<h1 id="galerie">Galerie</h1>  <!-- Toto je ten nejmocnější nadpis sire, ale už po druhé -->
+       
+        <h2 id="2022">2022</h2> <!-- Toto je ten 2. nejmocnější nadpis sire -->  
+            <img src="images/2022/kazimit.jpg" width="254" height="413" alt="kazimir"><br>  <!-- krásný obraz (obrázek)  -->
+            <img src="images/2022/ondra.jpg" width="700" height="887" alt="ondra"><br> 
+            <img src="images/2022/tohle.neni.moje.fotka.jpg" width="666" height="500" alt="pervitin"><br>  
+        <h2 id="2021">2021</h2>
+            <img src="images/2021/swag.jpg" width="480" height="360" alt="swag"><br> 
+            <img src="images/2021/ondrova_snidane.jpg" width="500" height="334" alt="ondrova_snidane"><br>  
+            <img src="images/2021/laska.jpg" width="720" height="720" alt="laska"><br>  
+        <h2 id="2020">2020</h2>
+            <img src="images/2020/na_hodine_ikt_jsem_nebyl_nikdy_high_fr.jpg" width="640" height="853" alt="na_hodine_ikt_jsem_nebyl_nikdy_high_fr"><br>  
+            <img src="images/2020/snidane.jpeg" width="525" height="700" alt="moje_snidane"><br>  
+            <img src="images/2020/nedelej_ze_nevis_kdo_to_je.jpg" width="900" height="900" alt="nedelej_ze_nevis_kdo_to_je"><br>  
+
+
+<h1 id="Omne">O mně</h1>         <!-- Toto je ten nejmocnější nadpis sire -->   
+        <h2 id="Zkusenosti">Zkušenosti</h2><!-- Toto je ten 2. nejmocnější nadpis sire --> 
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent id justo in neque elementum ultrices. Nunc tincidunt ante vitae massa. Praesent in mauris eu tortor porttitor accumsan. Aenean vel massa quis mauris vehicula lacinia. Nullam dapibus fermentum ipsum. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Integer lacinia. Integer pellentesque quam vel velit. Cras elementum. Maecenas lorem. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Integer in sapien. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Suspendisse sagittis ultrices augue. Aliquam erat volutpat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Vivamus ac leo pretium faucibus.</p>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam egestas wisi a erat. Nulla pulvinar eleifend sem. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Aliquam erat volutpat. Integer lacinia. Integer pellentesque quam vel velit. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Nam quis nulla. Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien. Aenean id metus id velit ullamcorper pulvinar. Nunc auctor. Quisque tincidunt scelerisque libero. Duis condimentum augue id magna semper rutrum. Integer malesuada.</p>
+        
+        <h2 id="odkazy">Užitečné odkazy</h2>
+            <a href="https://https:/…WEB" target="_blank"> github</a><br> <!-- odkaz ale má: br aby to bylo na novém řádku a taky má: _blank aby se to otevřelo v novém okně (stránce) -->
+            <a href="https://www.google.com/…F-8" target="_blank">mocnost</a><br>
+        
+        <h2 id="kontakt">kontakt</h2>
+            <div><img src="images/icons/email.jpg" width="15" height="15" alt="email"> hul.skera.more@kámo.fakt.už.mě.to.nebaví.delam.to.snad.8.hodin.cz</div>  -->
+            <div><img src="images/icons/mobil.jpg" width="15" height="15" alt="mobil "> + 420 420 420 420</div>
+            <div><img src="images/icons/adresa.jpg" width="15" height="15" alt="adresa"> Potahová 88, Zlé Modřany, Modřanské království</div>
+</body>
+
+</html>
